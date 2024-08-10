@@ -28,7 +28,7 @@ html a{
   --border-gray: .1em solid #ddd;
   --border-gray2: .1em solid #979797;
   --border-main: .1em solid #feec93;
-  --box-shadow-inset: inset 2px 2px 4px rgba(0, 0, 0, 0.2);
+  --box-shadow-inset: inset 5px 5px 5px #d8d8de,inset -5px -5px 5px #ffffff;
   --box-shadowS: 1px 1px 5px rgba(0, 0, 0, 0.1);
   --drop-shadowXL: 0px 0px 10px rgba(0, 0, 0, .5);
   --drop-shadowS: 0px 3px 5px rgba(0, 0, 0, 0.25);

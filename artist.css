@@ -461,7 +461,7 @@ figcaption #avt-artist {
 
 .about_artist,
 .about_song {
-    background: #fff;
+    background: #f5f5fc;
     border-radius: .3em;
     box-shadow: var(--box-shadow-inset);
 }
