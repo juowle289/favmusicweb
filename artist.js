@@ -45,6 +45,7 @@ $(document).ready(function() {
     if ($(window).width() <= 768) {
 
         $('#btnAbtSong').on('click', function() {
+            $('body').css('overflow', 'hidden');
             $('.about_songP').toggleClass('expandAbtSong_mobile');
             
             $('.act-abtSong').css({
@@ -55,6 +56,7 @@ $(document).ready(function() {
         });
         
         $('#btnAbtArtist').on('click', function() {
+            $('body').css('overflow', 'hidden');
             $('.about_artistP').toggleClass('expandAbtSong_mobile');
             
             $('.act-abtArtist').css({
@@ -63,8 +65,6 @@ $(document).ready(function() {
                 zIndex : '101',
             });
         });  
-
-        
     }
 
     // Hover Act Popular Song

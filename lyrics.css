@@ -54,10 +54,10 @@
 
   /* Bars */
   
-  body header #head-bars .header-menu {
+  body header .bars #head-bars .header-bars-menu {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    padding-left: 1em;
   }
 
   body header #hamburger-label #bars-icon {
@@ -66,16 +66,12 @@
   }
 
   body header #head-bars li {
-    margin-bottom: 1em;
-    padding: .5em;
+    display: contents;
+    padding: .1em;
   }
 
   body header #hamburger-label {
     display: block;
-  }
-
-  header .bars #head-bars a{
-    font-size: 1em;
   }
 
   header .bars footer {
@@ -85,13 +81,6 @@
 
   header .bars footer p {
     line-height: 1.5em;
-  }
-
-  body header .bars .search-box {
-    position: absolute;
-    opacity: 1;
-    right: 0;
-    z-index: -1;
   }
 
   /* Nav */

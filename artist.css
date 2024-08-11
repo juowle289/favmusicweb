@@ -57,7 +57,7 @@
     }
   
     /* Bars */
-    body header .bars #head-bars .header-menu{
+    body header .bars #head-bars .header-bars-menu{
         display: flex;
         flex-direction: column;
     }
@@ -70,14 +70,11 @@
     body header #head-bars li {
         display: inline;
         padding: .1em;
+        font-size: 1em;
     }
   
     body header #hamburger-label {
         display: block;
-    }
-  
-    header .bars ul li a{
-        font-size: 1em;
     }
   
     body header .bars #head-bars {
@@ -311,7 +308,7 @@
     }
 
     .albums .wrapper_album {
-        margin: -.6em 0 -.6em -.6em;
+        margin: -.6em 0 -.6em 0;
         padding-bottom: 0;
         width: 100%;
         height: 18.3em;
@@ -344,7 +341,7 @@
     .recommend .wrapper_recommended {
         width: 100%;
         height: 19em;
-        margin: -.6em 0 -.5em -.6em;
+        margin: -.6em 0 -.5em 0;
     }
     
 
