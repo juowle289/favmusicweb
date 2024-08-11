@@ -504,7 +504,6 @@ $('.full-screen').on('click', function() {
     });
     $('.content-control a').css({
         color: '#fff',
-        transition: '1s ease-in',
     });
 
     $('<style>').text('input[type="range"]::-webkit-slider-thumb {background: #fff;}').appendTo('head');
@@ -512,7 +511,6 @@ $('.full-screen').on('click', function() {
 
     $('.audio-play .logo').css({
         marginTop: '-6%',
-        transition: '1s ease-in',
     });
 
     $('.full-screen').css({
