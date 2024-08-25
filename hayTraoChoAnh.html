@@ -478,6 +478,137 @@
 
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="lyric.js"></script>
+    <script>
+        let isFullScreen = false;
+
+        $('.full-screen').on('click', function() {
+            if (!isFullScreen) {
+                $('.full-screen').html('<i class="fa-solid fa-down-left-and-up-right-to-center"></i>');
+                $('.img-control').css({
+                    width: '100%',
+                    pointerEvents: 'none',
+                    touchAction: 'none',
+                });
+
+                $('.img-control img').css({
+                width: '8em',
+                height: '8em',
+                });
+
+                $('.audio-play').css({
+                    position: 'fixed',
+                    bottom: '0',
+                    left: '0',
+                    padding: '60vh 5% 0 5%',
+                    width: '100%',
+                    height: '100vh',
+                    margin: '0 0 0 0',
+                    flexWrap: 'wrap',
+                    color: '#fff',
+                    transition: '1s ease-in',
+                    background: 
+                    'linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8) 80%), url("Image-source/Artist/mtp-coverImg.jpg") no-repeat center/cover',
+                });
+
+                $('.audio-play .control').css({
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'center',
+                });
+
+                $('.content-control').css({
+                    fontSize: '1.2em',
+                });
+                $('#nameSong-control').css({
+                    fontWeight: 'bold',
+                    fontSize: '1.3em',
+                });
+                $('.content-control a').css({
+                    color: '#fff',
+                });
+
+                $('<style>').text('input[type="range"]::-webkit-slider-thumb {background: #fff;}').appendTo('head');
+                $('<style>').text('input[type="range"]::-webkit-slider-runnable-track {background: #fff;}').appendTo('head');
+
+                $('.audio-play .logo').css({
+                    marginTop: '-6%',
+                });
+
+                $('.full-screen').css({
+                    width: '100%',
+                    padding: '1% 0',
+                    display: 'flex',
+                    justifyContent: 'end',
+                });
+
+                $('header, footer, main, nav').hide();
+
+                isFullScreen = true;
+
+            } else {
+        
+                $('.full-screen').html('<i class="fa-solid fa-up-right-and-down-left-from-center"></i>');
+                $('.img-control').css({
+                    width: '23em',
+                    pointerEvents: 'all',
+                    touchAction: 'none',
+                });
+
+                $('.img-control img').css({
+                width: '3.125em',
+                height: '3.125em',
+                });
+
+                $('.audio-play').css({
+                    position: 'fixed',
+                    // inset: 'none',
+                    bottom: '6%',
+                    left: '10%',
+                    padding: '.3em',
+                    width: 'calc(90% - 10%)',
+                    height: '4em',
+                    margin: 'initial',
+                    flexWrap: 'initial',
+                    color: 'initial',
+                    transition: 'initial',
+                    background: 'var(--opac-white)',
+                });
+
+                $('.audio-play .control').css({
+                    width: 'initial',
+                    justifyContent: 'none',
+                });
+
+                $('.content-control').css({
+                    fontSize: 'initial',
+                });
+                $('#nameSong-control').css({
+                    fontWeight: 'initial',
+                    fontSize: 'initial',
+                });
+                $('.content-control a').css({
+                    color: '#000',
+                });
+
+                $('<style>').text('input[type="range"]::-webkit-slider-thumb {background: #000;}').appendTo('head');
+                $('<style>').text('input[type="range"]::-webkit-slider-runnable-track {background: #000;}').appendTo('head');
+
+                $('.audio-play .logo').css({
+                    marginTop: '0',
+                });
+
+                $('.full-screen').css({
+                    width: 'fit-content',
+                    padding: '0',
+                    justifyContent: 'none',
+                });
+
+                $('header, footer, main, nav').show();
+
+                isFullScreen = false;
+            }
+        });
+    </script>
 
 </body>
 
