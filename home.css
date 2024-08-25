@@ -295,7 +295,7 @@
 }
 
 /* DESK, LAP */
-@media screen and (min-width: 1000px) and (max-width: 1280px) {
+@media screen /*and (min-width: 1000px)*/ and (max-width: 1728px) {
 
   body main {
     padding: 0 3%;
@@ -588,11 +588,12 @@ figure video {
 }
 
 figcaption {
+  position: absolute;
+  top: 10%;
+  left: 10%;
   width: 100%;
   text-align: left;
   font-size: 4em;
-  margin-top: -10em;
-  padding-left: 10%;
 }
 
 figcaption :is(h1, h6) {
@@ -689,7 +690,7 @@ figcaption button:hover::before {
   /* position: absolute; */
   display: flex;
   align-items: center;
-  margin-top: -5em;
+  margin-top: -4em;
   margin-left: 17em;
 
   width: 8em; height: 4em;
