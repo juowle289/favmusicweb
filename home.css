@@ -149,7 +149,7 @@
   }
 
   body figcaption {
-    margin: -8em 0 0 0; 
+    margin-top: -15%;
     font-size: 1.5em;
   }
 
@@ -175,17 +175,17 @@
     position: absolute;
     right: 0;
     padding: 0;
-    margin: -2em 0 0 0;
+    margin: -2em 2em 0em 0;
     transform: rotate(0deg);
     z-index: 1;
   }
 
   body .play-song i {
     position: absolute;
-    font-size: 1.2em;
+    font-size: 1.1em;
     transform: rotate(0deg);
     right: 1em;
-    top: .5em;
+    top: .6em;
     margin: 0;
   }
 
@@ -219,6 +219,7 @@
 
   main .play-list .collection {
     margin: 0 0 3em 0;
+    border: .1em solid var(--color-main);
   }
 
   main .play-list .collection h3 {
@@ -287,6 +288,12 @@
   body form {
     width: auto;
     padding: 0 3%;
+  }
+
+  body form input,
+  body form textarea {
+    height: 3em;
+    font-size: .9em;
   }
 
   html {
@@ -582,6 +589,7 @@ figure {
   width: 100%;
   height: 106.6vh;
 }
+
 figure video {
   width: 100%;
     margin-top: -4.3em;
@@ -589,7 +597,7 @@ figure video {
 
 figcaption {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 10%;
   width: 100%;
   text-align: left;
@@ -977,7 +985,7 @@ textarea {
   width: 100%;
   height: 4em;
   font-size: 1em;
-  border-radius: 0.1em;
+  border-radius: .1em;
   padding: 0.8em;
   margin: 0 0 1em 0;
   font-family: var(--font-NiveauGrotesk);
@@ -1040,49 +1048,6 @@ form button:hover::before {
   border: initial;
   border-radius: inherit;
   margin-top: 10px;
-}
-
-.more {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.bookmark {
-  width: 30%;
-  margin-bottom: 1em;
-  text-align: left;
-}
-
-.bookmark p a,
-.bookmark h3 {
-  font-family: var(--font-NiveauGrotesk);
-  padding-left: 0.3em;
-  margin-bottom: 0.3em;
-}
-
-.bookmark h3 {
-  border-left: 0.1em solid var(--color-main);
-}
-
-.bookmark p a:hover {
-  text-decoration: underline;
-}
-
-summary {
-  font-size: 1.3em;
-  margin-bottom: 1em;
-  margin-top: 1em;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: underline;
-  transition: 300ms ease;
-}
-
-summary:hover {
-  transform: translateY(0.2em);
-  color: var(--color-main);
-  filter: drop-shadow(1px 1px 5px rgba(254, 236, 147, 0.8));
 }
 
 footer {
