@@ -1,3 +1,77 @@
+@media screen and (max-width: 768px) {
+  main {
+    flex-wrap: wrap-reverse;
+    
+  }
+
+  main #login-form{
+    width: 100%;
+    padding: 0 15%;
+    font-size: .9em;
+  }
+
+  main #signup-form {
+    width: 100%;
+    height: 100%;
+    font-size: 2.1em;
+    padding: 0 15%;
+  }
+
+  main #login-form input,
+  main #signup-form input {
+    height: 3em;
+    border-radius: .3em;
+  }
+
+  #login-form #submit,
+  #signup-form #submit {
+    border-radius: .3em;
+    padding: 0;
+  }
+  #signup-form #submit{
+    margin-top: 1em;
+  }
+
+  #login-form .forgotPas a
+  #signup-form .forgotPas a {
+    font-size: .8em;
+  }
+
+  #login-form .ctn
+  #signup-form .ctn{
+    text-align: center;
+  }
+
+  #login-form .ctn hr,
+  #signup-form .ctn hr {
+    width: 40%;
+  }
+
+  #login-form #other,
+  #signup-form #other {
+    width: 100%;
+    border-radius: .3em;
+    height: 3em;
+    padding: 0;
+  }
+
+  #login-form #other img,
+  #signup-form #other img {
+    font-size: .6em;
+  }
+
+  #login-form .inputBox #revealPw, 
+  #signup-form .inputBox #revealPw {
+    margin-top: 1.3em;
+  }
+
+  #signup-form :is(
+    #forgot, button, a, .inputBox, .heading, .forgotPas, .ctn) {
+    margin-bottom: .8em;
+  }
+
+  main aside {display: none;}
+}
 
 ::-moz-selection {
   background-color: var(--color-main);
