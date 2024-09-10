@@ -69,45 +69,6 @@ if (hbgCheckbox.is(':checked')) {
 }
 });
 
-// TODO audio swiper-slide 
-
-
-// todo nav audio 
-$(document).ready(function(){
-    const $audio = $('#audio');
-    const $range = $('#range');
-    const $playBtn = $('#playBtn');
-    
-    $range.css({
-        'transform': 'rotate(180deg)'
-    });
-
-    $playBtn.on('click', function(){
-        if ($audio[0].paused) {
-            $audio[0].play();
-            $(this).html('<i class="bi bi-pause-circle"></i>');
-        }else {
-            $audio[0].pause();
-            $(this).html('<i class="bi bi-play-circle"></i>')
-        }
-    });
-
-    $audio.on('timeupdate', function() {
-        const duration = $audio[0].duration;
-        const currentTime = $audio[0].currentTime;
-        const value = (currentTime / duration) * 100;
-        $range.val(value);
-    });
-
-    $range.on('input', function() {
-        const duration = $audio[0].duration;
-        const value = $(this).val();
-        $audio[0].currentTime = (value / 100) * duration;
-    });
-});
-
-
-
 // TODO SPOTIFY 
 
 $('#Vietnam').on('click', function() {
