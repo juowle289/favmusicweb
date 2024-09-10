@@ -25,23 +25,6 @@ $(document).ready(function() {
         });
     });
 
-    // Click Act Btn About-Artist
-    $('#btnAbtArtist').on('click', function(){
-        $(this).html($(this).html() === 'Expand' ? 'Collapse' : 'Expand');
-
-        $('.bi-caret-down-fill').css({
-            transition: '350ms ease',
-            transform: $(this).html() === 'Expand' ? 'rotate(0deg)' : 'rotate(180deg)'
-        });
-
-        $('.about_artistP').toggleClass('expandAbtSong');
-        $('.about_artistImg').toggle();
-
-        $('.act-abtArtist').css({
-            marginTop: $(this).html() === 'Collapse' ? '22.5em' : '0em',
-        });
-    });
-
     if ($(window).width() <= 768) {
 
         $('#btnAbtSong').on('click', function() {
@@ -54,17 +37,6 @@ $(document).ready(function() {
                 zIndex : '101',
             });
         });
-        
-        $('#btnAbtArtist').on('click', function() {
-            $('body').css('overflow', 'hidden');
-            $('.about_artistP').toggleClass('expandAbtSong_mobile');
-            
-            $('.act-abtArtist').css({
-                position:$(this).html() === 'Collapse' ? 'fixed' : 'relative',
-                bottom: '2em',
-                zIndex : '101',
-            });
-        });  
     }
 
     // Hover Act Popular Song
