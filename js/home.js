@@ -103,22 +103,22 @@ const searchSuggest = $('#search-suggest');
 
 const artists = [
     {
-        avtArtist : 'Image-source/Artist/mtp-avtArtist.jpg',
+        avtArtist : 'assets/images/Artist/mtp-avtArtist.jpg',
         nameArtist: 'Sơn Tùng M-TP',
         link      : 'Son-Tung-MTP.html' 
     },
     {
-        avtArtist : 'Image-source/Artist/TheWeeknd-avtArtist.jpg',
+        avtArtist : 'assets/images/Artist/TheWeeknd-avtArtist.jpg',
         nameArtist: 'The Weeknd',
         link      : 'The-Weeknd.html' 
     },
     {
-        avtArtist : 'Image-source/Artist/billieEilish-avtArtist.jpg',
+        avtArtist : 'assets/images/Artist/billieEilish-avtArtist.jpg',
         nameArtist: 'Billie Eilish',
         link      : '#' 
     },
     {
-        avtArtist : 'Image-source/Artist/DPRIAN-avtartist.jpg',
+        avtArtist : 'assets/images/Artist/DPRIAN-avtartist.jpg',
         nameArtist: 'DPR IAN',
         link      : '#' 
     },
@@ -126,112 +126,112 @@ const artists = [
 
 const songs = [
     {
-        imgSrc: 'Image-source/Collections/MoodswingsInThisOrder.jpg',
+        imgSrc: 'assets/images/Collections/MoodswingsInThisOrder.jpg',
         title : 'Nerves',
         artist: 'DPR IAN',
         views : '162.9K',
         link  : 'nerves.html'
     },
     {
-        imgSrc: 'Image-source/Collections/MITO.png',
+        imgSrc: 'assets/images/Collections/MITO.png',
         title : 'Ballroom Extravaganza',
         artist: 'DPR IAN',
         views : '611.1K',
         link  : 'ballroomExtravaganza.html'
     },
     {
-        imgSrc: 'Image-source/Collections/Chungtacuatuonglai.jpg',
+        imgSrc: 'assets/images/Collections/Chungtacuatuonglai.jpg',
         title : 'Chúng Ta Của Tương Lai',
         artist: 'Sơn Tùng M-TP',
         views : '6.3M',
         link  : 'chungTaCuaTuongLai.html'
     },
     {
-        imgSrc: 'Image-source/Collections/hayTraoChoAnh.jpg',
+        imgSrc: 'assets/images/Collections/hayTraoChoAnh.jpg',
         title : 'Hãy Trao Cho Anh',
         artist: 'Sơn Tùng M-TP',
         views : '270M',
         link  : 'hayTraoChoAnh.html'
     },
     {
-        imgSrc: 'Image-source/Collections/oneOfTheGirls.jpg',
+        imgSrc: 'assets/images/Collections/oneOfTheGirls.jpg',
         title : 'One Of The Girls',
         artist: 'The Weeknd, JENNIE, Lily-Rose Deep',
         views : '1.1M',
         link  : 'oneOfTheGirls.html'
     },
     {
-        imgSrc: 'Image-source/Collections/afterHours.jpg',
+        imgSrc: 'assets/images/Collections/afterHours.jpg',
         title : 'After Hours',
         artist: 'The Weeknd',
         views : '212M',
         link  : 'afterHours.html'
     },
     {
-        imgSrc: 'Image-source/Collections/popular.png',
+        imgSrc: 'assets/images/Collections/popular.png',
         title : 'Popular',
         artist: 'The Weeknd',
         views : '619.1K',
         link  : 'popular.html'
     },
     {
-        imgSrc: 'Image-source/Collections/hitMeHardAndSoft.jpg',
+        imgSrc: 'assets/images/Collections/hitMeHardAndSoft.jpg',
         title : 'BLUE',
         artist: 'Billie Eilish',
         views : '611.1K',
         link  : 'blue.html'
     },
     {
-        imgSrc: 'Image-source/Collections/hitMeHardAndSoft.jpg',
+        imgSrc: 'assets/images/Collections/hitMeHardAndSoft.jpg',
         title : 'CHIHIRO',
         artist: 'Billie Eilish',
         views : '856.1K',
         link  : '#'
     },
     {
-        imgSrc: 'Image-source/Collections/DrawnFM.jpg',
+        imgSrc: 'assets/images/Collections/DrawnFM.jpg',
         title : 'Is There Someone Else',
         artist: 'The Weeknd',
         views : '830.7K',
         link  : '#'
     },
     {
-        imgSrc: 'Image-source/Collections/Dear-Melancholy.jpg',
+        imgSrc: 'assets/images/Collections/Dear-Melancholy.jpg',
         title : 'I Was Never There',
         artist: 'The Weeknd, Gesaffelstein',
         views : '1.5M',
         link  : '#'
     },
     {
-        imgSrc: 'Image-source/Collections/DearInsanity.jpg',
+        imgSrc: 'assets/images/Collections/DearInsanity.jpg',
         title : 'Violet Crazy',
         artist: 'DPR IAN',
         views : '611.1K',
         link  : 'VioletCrazy.html'
     },
     {
-        imgSrc: 'Image-source/Collections/starboy.jpg',
+        imgSrc: 'assets/images/Collections/starboy.jpg',
         title : 'Die For You',
         artist: 'The Weeknd',
         views : '4.3M',
         link  : '#'
     },
     {
-        imgSrc: 'Image-source/Collections/starboy.jpg',
+        imgSrc: 'assets/images/Collections/starboy.jpg',
         title : 'Starboy',
         artist: 'The Weeknd',
         views : '8.9M',
         link  : '#'
     },
     {
-        imgSrc: 'Image-source/Collections/MoodswingsInThisOrder.jpg',
+        imgSrc: 'assets/images/Collections/MoodswingsInThisOrder.jpg',
         title : 'So Beautiful',
         artist: 'DPR IAN',
         views : '90.1K',
         link  : '#'
     },
     {
-        imgSrc: 'Image-source/Collections/theColorViolet.jpg',
+        imgSrc: 'assets/images/Collections/theColorViolet.jpg',
         title : 'The Color Violet',
         artist: 'Tory Lanez',
         views : '31M',

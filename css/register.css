@@ -204,11 +204,6 @@ main {
   margin-top: 4.3em;
 }
 
-#banner {
-  width: 50vw;
-  background: url(Image-source/Banner1.jpg) no-repeat center/cover;
-}
-
 form {
   padding: 1em 8em 0 8em;
   margin: 2em 0em 3em 0em;

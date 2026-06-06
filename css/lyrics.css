@@ -750,18 +750,6 @@ article .logo {
   z-index: 5;
 }
 
-.disk #pioneer {
-  width: 9em; height: 9em;
-  margin-left: -8.5em;
-  margin-bottom: 2em;
-  object-fit: contain;
-  transform: rotate(-45deg);
-  /* transition: 550ms;
-  transition-delay: 350ms; */
-  opacity: 0;
-  z-index: 5;
-}
-
  /* COMMENT */
 .cmt-container {
   width: 100%;

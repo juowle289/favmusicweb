@@ -901,7 +901,7 @@ article p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(Image-source/contact.png) no-repeat;
+  background: url(assets/images/contact.png) no-repeat;
   background-size: cover;
 }
 

@@ -385,8 +385,6 @@ const logoAudio = document.querySelector('.audio-play .logo');
 const fullScreen =document.querySelector('.full-screen');
 
 const vinylDisk = document.getElementById('vinylMusicDisk');
-const pioneer = document.getElementById('pioneer');
-
 
 imgAudio.addEventListener('click', () => {
     if (imgAudioSize.style.width == "3.125em" || imgAudio.style.width == '') {
@@ -419,10 +417,6 @@ imgAudio.addEventListener('click', () => {
         vinylDisk.style.marginLeft = "-2.7em";
         vinylDisk.style.transition = "550ms";
         vinylDisk.style.transitionDelay = "200ms";
-        pioneer.style.opacity = "1";
-        pioneer.style.transform = "rotate(-30deg)";
-        pioneer.style.transition = "550ms";
-        pioneer.style.transitionDelay = "350ms";
     }else {
         audioPlay.style.backdropFilter = "blur(10px)";
         audioPlay.style.boxShadow = ".1em .2em .8em rgba(0, 0, 0, .25)";
@@ -448,9 +442,6 @@ imgAudio.addEventListener('click', () => {
         vinylDisk.style.opacity = "0";
         vinylDisk.style.marginLeft = "-3em";
         vinylDisk.style.transition = "0ms";
-        pioneer.style.opacity = "0";
-        pioneer.style.transform = "rotate(-45deg)";
-        pioneer.style.transition = "0ms";
     }
     
     imgAudio.classList.toggle('rotateAudio');
